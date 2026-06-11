@@ -77,7 +77,7 @@ If demoDevice is not Linux device skip this chapter and run it as necessary. If 
 As set by application, startup Node-ID for demoDevice is 4. It can be changed by LSS.
 
 ### cocomm
-Make sure, utility [cocomm](cocomm/README.md) is working properly. Use another terminal window and display help (help string is received from canopend):
+Make sure, utility [cocomm](https://github.com/CANopenNode/CANopenLinux/blob/master/cocomm/README.md) is working properly. Use another terminal window and display help (help string is received from canopend):
 
     cocomm "help"
 
