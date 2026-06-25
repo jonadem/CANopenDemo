@@ -77,7 +77,7 @@ If demoDevice is not Linux device skip this chapter and run it as necessary. If 
 As set by application, startup Node-ID for demoDevice is 4. It can be changed by LSS.
 
 ### cocomm
-Make sure, utility [cocomm](cocomm/README.md) is working properly. Use another terminal window and display help (help string is received from canopend):
+Make sure, utility [cocomm](https://github.com/CANopenNode/CANopenLinux/blob/master/cocomm/README.md) is working properly. Use another terminal window and display help (help string is received from canopend):
 
     cocomm "help"
 
@@ -215,7 +215,7 @@ Next steps
  - Learn other CANopen functionalities like Heartbeat consumer, Time stamp, Sync, etc. Read CiA301 standard, CANopen book or [demo/demoDevice.md](demo/demoDevice.md).
  - Experiment with [demoDevice](../demo/README.md) on available platforms or create your own. Create own Object Dictionary.
  - For own CANopen device with own microcontroller, see `CANopenNode/doc/deviceSupport.md`.
- - Search many very useful and high quality specifications for different [device profiles](http://www.can-cia.org/standardization/specifications/), some of them are public and free to download, for example [CiA401](https://www.can-cia.org/can-knowledge/canopen/cia401/).
+ - Search many very useful and high quality specifications for different [device profiles](https://www.can-cia.org/cia-groups/technical-documents), some of them are public and free to download, for example [CiA401](https://www.can-cia.org/can-knowledge/cia-401-series-i/o-device-profile).
  - There are many other CANopen tools, both commercial and free, for example [CANopen for Python](https://github.com/christiansandberg/canopen).
  - Keep control, safety and responsibility on your devices.
  - Read the [CAN Newsletter](https://can-newsletter.org/).
