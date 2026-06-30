@@ -97,7 +97,7 @@ static ODR_t OD_read_domainDemo(OD_stream_t *stream, void *buf,
 
 
 /*
- * Custom function for reading OD object _domainDemo_
+ * Custom function for writing OD object _domainDemo_
  *
  * For more information see file CO_ODinterface.h, OD_IO_t.
  */
